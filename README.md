@@ -50,11 +50,14 @@
 # Pushing the image to Dockerhub
 
 1. Log-in to Dockerhub:
-   `docker login
+   ```
+   docker login
    
 2. Tag the test image with your dockerhub repo name:
-   `docker tag <image_id> <repo_name>/<image_name>:<image_tag>
+   ```
+   docker tag <image_id> <repo_name>/<image_name>:<image_tag>
     
 3. Push the image to Dockerhub:
-   `docker push <repo_name>/<image_name>:<image_tag>
+   ```
+   docker push <repo_name>/<image_name>:<image_tag>
    

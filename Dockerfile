@@ -2,7 +2,7 @@ FROM debian:bullseye-slim AS extract
 
 ENV DOGSTATSD_NAMESPACE=test \
     DOGSTATSD_VALUE=1 \
-    DOGSTATSD_METRIC_TYPE=gauge \
+    DOGSTATSD_METRIC_TYPE=g \
     LOGS_LINE="test message" \
     APM_ADDRESS_NAME=test-default \
     APM_SPAN_NAME=test-default \
